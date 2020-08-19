@@ -80,8 +80,8 @@ public class Order {
 	}
 	
 	public String toString() {
-		String i = "";
-		return i;
+		String Order = super.toString();
+		return String.format("%-63s", Order);
 	}
 	
 	
