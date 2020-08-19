@@ -37,9 +37,10 @@ public class Promotion {
 	
 	public String toString() {
 		String promoCode = super.toString();
-		return String.format("%-63s %-20d", promoCode, getPromotionCode());
+		return String.format("%-63s", promoCode);
 		
 	}
 
 
 }
+
